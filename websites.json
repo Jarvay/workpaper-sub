@@ -1,0 +1,82 @@
+[
+    {
+      "name": "unsplash",
+      "type": "api",
+      "request": {
+        "url": "https://unsplash.com/napi/landing_pages/wallpapers/desktop",
+        "method": "GET",
+        "params": [
+          {
+            "type": "placeholder",
+            "key": "page",
+            "value": "$(PAGE)$"
+          },
+          {
+            "type": "placeholder",
+            "key": "per_page",
+            "value": "$(PAGE_SIZE)$"
+          }
+        ]
+      },
+      "responseKey": {
+        "list": "photos",
+        "rawInItem": "urls.raw",
+        "thumbInItem": "urls.thumb"
+      }
+    },
+    {
+      "name": "记忆云",
+      "type": "api",
+      "request": {
+        "url": "https://zvvx.cn/one/bizhi/api.php",
+        "method": "GET",
+        "params": [
+          {
+            "type": "number",
+            "key": "cid",
+            "value": 36
+          },
+          {
+            "type": "placeholder",
+            "key": "start",
+            "value": "$(CURRENT_COUNT)$"
+          },
+          {
+            "type": "placeholder",
+            "key": "count",
+            "value": "$(PAGE_SIZE)$"
+          }
+        ]
+      },
+      "responseKey": {
+        "list": "data",
+        "rawInItem": "url",
+        "thumbInItem": "img_1024_768"
+      }
+    },
+    {
+      "name": "wallpaperscraft",
+      "type": "website",
+      "url": "https://wallpaperscraft.com/"
+    },
+    {
+      "name": "wallhaven",
+      "type": "website",
+      "url": "https://wallhaven.cc/ "
+    },
+    {
+      "name": "极简壁纸",
+      "type": "website",
+      "url": "https://bz.zzzmh.cn/ "
+    },
+    {
+      "name": "pexels",
+      "type": "website",
+      "url": "https://www.pexels.com/"
+    },
+    {
+      "name": "3G壁纸",
+      "type": "website",
+      "url": "https://www.3gbizhi.com/"
+    }
+  ]
