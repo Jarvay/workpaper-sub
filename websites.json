@@ -78,6 +78,8 @@
       "name": "3G壁纸",
       "type": "website",
       "url": "https://www.3gbizhi.com/",
-      "needToLogin": true
+      "tags": {
+          "needToLogin": true
+      }
     }
   ]
