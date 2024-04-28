@@ -1,0 +1,2 @@
+- 如果您不想您的网站被收录，请告诉我。
+- If you don't want your website to be indexed, please let me know.
